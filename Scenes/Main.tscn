@@ -1,0 +1,476 @@
+[gd_scene load_steps=69 format=3 uid="uid://bgsej0kei6kkf"]
+
+[ext_resource type="Texture2D" uid="uid://co7oxvw7gmocy" path="res://Assets/dice_animations/dice0006.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://futvao5ih4fv" path="res://Assets/new_board.jpg" id="2_q1px1"]
+[ext_resource type="Texture2D" uid="uid://b3n2q80rv8lgv" path="res://Assets/players/red.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://sqi0fw582lpo" path="res://Assets/dice_animations/dice0012.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://vccs8rjpe6kh" path="res://Assets/dice_animations/dice0032.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cha6pb2rox4b6" path="res://Assets/dice_animations/dice0023.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://brh68ir84e5eg" path="res://Assets/dice_animations/dice0038.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bgrxrsm8hg64v" path="res://Assets/dice_animations/dice0013.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://d03lnbmlvosai" path="res://Assets/dice_faces/4.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://8m5mb7a3onpd" path="res://Assets/dice_animations/dice0029.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dhsqwhqtfltk3" path="res://Assets/dice_animations/dice0003.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://du04son1s3b3g" path="res://Assets/dice_faces/3.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://d24qfp7n6xuam" path="res://Assets/dice_animations/dice0037.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cn5xca5utxtqf" path="res://Assets/dice_animations/dice0015.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dcb0y686oxdfc" path="res://Assets/dice_faces/1.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dv8xnhwfsa0sg" path="res://Assets/dice_animations/dice0016.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dremfmkjrymgp" path="res://Assets/DiceBase.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cd2h5io5s7j67" path="res://Assets/dice_animations/dice0027.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bbk83wpnwnsyg" path="res://Assets/players/yellow.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bqme8nf3neygb" path="res://Assets/dice_animations/dice0005.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://4e7nktcul63i" path="res://Assets/dice_animations/dice0036.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://xvovu07mdgte" path="res://Assets/dice_animations/dice0004.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dosy5k86fsqgp" path="res://Assets/dice_animations/dice0026.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://ddvody26lwyew" path="res://Assets/dice_animations/dice0017.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cs3j0pcd6qneb" path="res://Assets/dice_animations/dice0033.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://de4u70eawnfp8" path="res://Assets/dice_animations/dice0002.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://rxd5lcvggydt" path="res://Assets/dice_animations/dice0040.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dtlcvx2lwfbod" path="res://Assets/dice_animations/dice0022.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://b35im5dh5iqms" path="res://Assets/dice_animations/dice0030.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://cgd7obml8aaun" path="res://Assets/dice_animations/dice0001.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cpfv5rb1wb8ih" path="res://Assets/players/green.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://di22u4tapyi3p" path="res://Assets/dice_animations/dice0025.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bg5qh5pigmtaj" path="res://Assets/dice_animations/dice0039.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://ix3s8hc3mbwp" path="res://Assets/dice_animations/dice0021.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://boev7ivpedcvq" path="res://Assets/dice_animations/dice0035.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://b5avr4clypqat" path="res://Assets/dice_animations/dice0020.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://droxoy74e5r4c" path="res://Assets/dice_animations/dice0018.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://c108h04urqvp1" path="res://Assets/dice_animations/dice0009.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://cbe3sondjjdih" path="res://Assets/dice_animations/dice0011.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://drkb6i2jyhabk" path="res://Assets/dice_animations/dice00028.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://b25ak0p2inacb" path="res://Assets/dice_animations/dice0008.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://b3p4q513ipdtj" path="res://Assets/players/blue.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://830xx8q1h5b5" path="res://Assets/dice_faces/2.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://croobvhb1m36a" path="res://Assets/dice_animations/dice0034.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://hbfd0hyxpujt" path="res://Assets/dice_faces/5.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://mmiym1di3x1a" path="res://Assets/dice_animations/dice0014.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://bsd4qfvtyou1m" path="res://Assets/dice_animations/dice0010.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://bxt7m6h5fft34" path="res://Assets/dice_animations/dice0019.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://dt1v1sx30annr" path="res://Assets/dice_animations/dice0031.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://c7stvel7b3n4a" path="res://Assets/dice_animations/dice0024.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://ckmp0en13so5g" path="res://Assets/dice_animations/dice0007.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://d4f6pgfjf1fnb" path="res://Assets/dice_faces/6.png" id="52"]
+[ext_resource type="Script" path="res://Scenes/Main.gd" id="53"]
+[ext_resource type="Theme" uid="uid://dp5dxfslk02in" path="res://Assets/Fonts/theme.tres" id="54"]
+[ext_resource type="FontFile" uid="uid://cf8acxnf47gua" path="res://Assets/Fonts/OpenSans-Bold.ttf" id="55"]
+[ext_resource type="AudioStream" uid="uid://w7j56dyl4nys" path="res://Assets/Audio/snake-hissing-6092.mp3" id="56"]
+[ext_resource type="AudioStream" uid="uid://dma52c8k3vdm7" path="res://Assets/Audio/dice-roll-37917.mp3" id="57"]
+[ext_resource type="AudioStream" uid="uid://bjn210rsqiw5q" path="res://Assets/Audio/drop_004.ogg" id="58"]
+[ext_resource type="AudioStream" uid="uid://6kmgogcp0e07" path="res://Assets/Audio/open_002.ogg" id="59"]
+[ext_resource type="Texture2D" uid="uid://27qmm1l3achr" path="res://Assets/IMG-20230423-WA0003.jpg" id="60_7qv3r"]
+
+[sub_resource type="SpriteFrames" id="1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}],
+"loop": false,
+"name": &"roll",
+"speed": 40.0
+}]
+
+[sub_resource type="SpriteFrames" id="2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}],
+"loop": true,
+"name": &"show_faces",
+"speed": 5.0
+}]
+
+[sub_resource type="Curve2D" id="3"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 120, 1648, 0, 0, 0, 0, 216, 1648, 0, 0, 0, 0, 304, 1648, 0, 0, 0, 0, 400, 1648, 0, 0, 0, 0, 496, 1640, 0, 0, 0, 0, 592, 1648, 0, 0, 0, 0, 688, 1640, 0, 0, 0, 0, 775, 1648, 0, 0, 0, 0, 871, 1640, 0, 0, 0, 0, 975, 1640, 0, 0, 0, 0, 975, 1504, 0, 0, 0, 0, 879, 1504, 0, 0, 0, 0, 783, 1504, 0, 0, 0, 0, 687, 1504, 0, 0, 0, 0, 591, 1504, 0, 0, 0, 0, 495, 1504, 0, 0, 0, 0, 407, 1504, 0, 0, 0, 0, 311, 1504, 0, 0, 0, 0, 223, 1504, 0, 0, 0, 0, 127, 1504, 0, 0, 0, 0, 119, 1344, 0, 0, 0, 0, 215, 1344, 0, 0, 0, 0, 311, 1344, 0, 0, 0, 0, 399, 1344, 0, 0, 0, 0, 495, 1344, 0, 0, 0, 0, 591, 1344, 0, 0, 0, 0, 679, 1344, 0, 0, 0, 0, 775, 1344, 0, 0, 0, 0, 887, 1344, 0, 0, 0, 0, 967, 1344, 0, 0, 0, 0, 967, 1200, 0, 0, 0, 0, 879, 1200, 0, 0, 0, 0, 783, 1200, 0, 0, 0, 0, 687, 1200, 0, 0, 0, 0, 599, 1200, 0, 0, 0, 0, 503, 1200, 0, 0, 0, 0, 399, 1200, 0, 0, 0, 0, 311, 1200, 0, 0, 0, 0, 215, 1200, 0, 0, 0, 0, 119, 1200, 0, 0, 0, 0, 119, 1040, 0, 0, 0, 0, 215, 1040, 0, 0, 0, 0, 311, 1040, 0, 0, 0, 0, 399, 1040, 0, 0, 0, 0, 495, 1040, 0, 0, 0, 0, 591, 1040, 0, 0, 0, 0, 687, 1040, 0, 0, 0, 0, 783, 1040, 0, 0, 0, 0, 879, 1040, 0, 0, 0, 0, 967, 1040, 0, 0, 0, 0, 967, 888, 0, 0, 0, 0, 887, 888, 0, 0, 0, 0, 783, 888, 0, 0, 0, 0, 687, 888, 0, 0, 0, 0, 591, 888, 0, 0, 0, 0, 495, 888, 0, 0, 0, 0, 399, 888, 0, 0, 0, 0, 303, 888, 0, 0, 0, 0, 207, 888, 0, 0, 0, 0, 119, 888, 0, 0, 0, 0, 119, 744, 0, 0, 0, 0, 215, 744, 0, 0, 0, 0, 303, 744, 0, 0, 0, 0, 399, 744, 0, 0, 0, 0, 495, 744, 0, 0, 0, 0, 583, 744, 0, 0, 0, 0, 687, 744, 0, 0, 0, 0, 783, 744, 0, 0, 0, 0, 879, 744, 0, 0, 0, 0, 975, 744, 0, 0, 0, 0, 967, 592, 0, 0, 0, 0, 871, 592, 0, 0, 0, 0, 783, 592, 0, 0, 0, 0, 687, 592, 0, 0, 0, 0, 591, 592, 0, 0, 0, 0, 503, 592, 0, 0, 0, 0, 399, 592, 0, 0, 0, 0, 303, 592, 0, 0, 0, 0, 215, 592, 0, 0, 0, 0, 119, 592, 0, 0, 0, 0, 119, 424, 0, 0, 0, 0, 223, 424, 0, 0, 0, 0, 311, 424, 0, 0, 0, 0, 399, 424, 0, 0, 0, 0, 495, 424, 0, 0, 0, 0, 599, 424, 0, 0, 0, 0, 679, 424, 0, 0, 0, 0, 775, 424, 0, 0, 0, 0, 871, 424, 0, 0, 0, 0, 975, 424, 0, 0, 0, 0, 975, 280, 0, 0, 0, 0, 879, 280, 0, 0, 0, 0, 783, 280, 0, 0, 0, 0, 687, 280, 0, 0, 0, 0, 591, 280, 0, 0, 0, 0, 503, 280, 0, 0, 0, 0, 407, 280, 0, 0, 0, 0, 311, 280, 0, 0, 0, 0, 223, 280, 0, 0, 0, 0, 119, 280)
+}
+point_count = 100
+
+[sub_resource type="Curve2D" id="4"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 216, 1648, 0, 0, 0, 0, 264, 1584, 0, 0, 0, 0, 312, 1504, 0, 0, 0, 0, 880, 1640, 0, 0, 0, 0, 840, 1536, 0, 0, 0, 0, 808, 1440, 0, 0, 0, 0, 776, 1344, 0, 0, 0, 0, 496, 1344, 0, 0, 0, 0, 552, 1280, 0, 0, 0, 0, 608, 1192, 0, 0, 0, 0, 672, 1112, 0, 0, 0, 0, 696, 1040, 0, 0, 0, 0, 968, 1344, 0, 0, 0, 0, 976, 1240, 0, 0, 0, 0, 976, 1152, 0, 0, 0, 0, 976, 1040, 0, 0, 0, 0, 216, 1200, 0, 0, 0, 0, 184, 1152, 0, 0, 0, 0, 144, 1088, 0, 0, 0, 0, 120, 1040, 0, 0, 0, 0, 496, 1056, 0, 0, 0, 0, 464, 1000, 0, 0, 0, 0, 432, 944, 0, 0, 0, 0, 392, 888, 0, 0, 0, 0, 968, 888, 0, 0, 0, 0, 920, 824, 0, 0, 0, 0, 872, 728, 0, 0, 0, 0, 824, 640, 0, 0, 0, 0, 792, 584, 0, 0, 0, 0, 496, 744, 0, 0, 0, 0, 496, 672, 0, 0, 0, 0, 496, 584, 0, 0, 0, 0, 496, 480, 0, 0, 0, 0, 496, 408, 0, 0, 0, 0, 216, 584, 0, 0, 0, 0, 248, 488, 0, 0, 0, 0, 280, 376, 0, 0, 0, 0, 312, 280, 0, 0, 0, 0, 896, 424, 0, 0, 0, 0, 936, 360, 0, 0, 0, 0, 968, 304, 0, 0, 0, 0, 976, 272)
+}
+point_count = 42
+
+[sub_resource type="Curve2D" id="5"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 680, 1344, 0, 0, 0, 0, 672, 1384, 0, 0, 0, 0, 680, 1432, 0, 0, 0, 0, 648, 1456, 0, 0, 0, 0, 608, 1464, 0, 0, 0, 0, 592, 1504, 0, 0, 0, 0, 592, 1552, 0, 0, 0, 0, 576, 1600, 0, 0, 0, 0, 544, 1632, 0, 0, 0, 0, 488, 1640, 0, 0, 0, 0, 296, 1200, 0, 0, 0, 0, 336, 1224, 0, 0, 0, 0, 352, 1272, 0, 0, 0, 0, 336, 1312, 0, 0, 0, 0, 360, 1360, 0, 0, 0, 0, 408, 1392, 0, 0, 0, 0, 432, 1448, 0, 0, 0, 0, 408, 1504, 0, 0, 0, 0, 880, 888, 0, 0, 0, 0, 896, 928, 0, 0, 0, 0, 904, 968, 0, 0, 0, 0, 880, 1008, 0, 0, 0, 0, 848, 1024, 0, 0, 0, 0, 840, 1056, 0, 0, 0, 0, 840, 1112, 0, 0, 0, 0, 840, 1168, 0, 0, 0, 0, 816, 1208, 0, 0, 0, 0, 776, 1200, 0, 0, 0, 0, 224, 744, 0, 0, 0, 0, 192, 760, 0, 0, 0, 0, 176, 784, 0, 0, 0, 0, 192, 816, 0, 0, 0, 0, 168, 840, 0, 0, 0, 0, 120, 856, 0, 0, 0, 0, 104, 896, 0, 0, 0, 0, 592, 744, 0, 0, 0, 0, 624, 784, 0, 0, 0, 0, 640, 824, 0, 0, 0, 0, 616, 856, 0, 0, 0, 0, 600, 912, 0, 0, 0, 0, 624, 952, 0, 0, 0, 0, 640, 1000, 0, 0, 0, 0, 640, 1040, 0, 0, 0, 0, 616, 1072, 0, 0, 0, 0, 584, 1040, 0, 0, 0, 0, 976, 432, 0, 0, 0, 0, 1000, 464, 0, 0, 0, 0, 1000, 488, 0, 0, 0, 0, 984, 520, 0, 0, 0, 0, 968, 544, 0, 0, 0, 0, 968, 576, 0, 0, 0, 0, 984, 600, 0, 0, 0, 0, 1000, 624, 0, 0, 0, 0, 1008, 656, 0, 0, 0, 0, 1000, 688, 0, 0, 0, 0, 984, 720, 0, 0, 0, 0, 968, 736, 0, 0, 0, 0, 784, 288, 0, 0, 0, 0, 808, 336, 0, 0, 0, 0, 808, 376, 0, 0, 0, 0, 792, 408, 0, 0, 0, 0, 752, 440, 0, 0, 0, 0, 744, 488, 0, 0, 0, 0, 744, 528, 0, 0, 0, 0, 752, 576, 0, 0, 0, 0, 760, 624, 0, 0, 0, 0, 752, 672, 0, 0, 0, 0, 744, 712, 0, 0, 0, 0, 712, 736, 0, 0, 0, 0, 688, 744, 0, 0, 0, 0, 600, 296, 0, 0, 0, 0, 624, 320, 0, 0, 0, 0, 624, 344, 0, 0, 0, 0, 616, 384, 0, 0, 0, 0, 592, 416, 0, 0, 0, 0, 600, 456, 0, 0, 0, 0, 608, 488, 0, 0, 0, 0, 624, 528, 0, 0, 0, 0, 632, 568, 0, 0, 0, 0, 624, 600, 0, 0, 0, 0, 416, 280, 0, 0, 0, 0, 432, 320, 0, 0, 0, 0, 448, 360, 0, 0, 0, 0, 432, 416, 0, 0, 0, 0, 408, 456, 0, 0, 0, 0, 368, 504, 0, 0, 0, 0, 368, 544, 0, 0, 0, 0, 376, 600, 0, 0, 0, 0, 384, 648, 0, 0, 0, 0, 384, 696, 0, 0, 0, 0, 392, 744, 0, 0, 0, 0, 384, 792, 0, 0, 0, 0, 376, 848, 0, 0, 0, 0, 352, 896, 0, 0, 0, 0, 320, 920, 0, 0, 0, 0, 296, 888, 0, 0, 0, 0, 216, 280, 0, 0, 0, 0, 192, 296, 0, 0, 0, 0, 168, 320, 0, 0, 0, 0, 176, 344, 0, 0, 0, 0, 184, 368, 0, 0, 0, 0, 160, 384, 0, 0, 0, 0, 128, 392, 0, 0, 0, 0, 104, 416, 0, 0, 0, 0, 104, 448)
+}
+point_count = 105
+
+[sub_resource type="FontFile" id="6"]
+fallbacks = Array[Font]([ExtResource("55")])
+face_index = null
+embolden = null
+transform = null
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/20/0/ascent = 0.0
+cache/0/20/0/descent = 0.0
+cache/0/20/0/underline_position = 0.0
+cache/0/20/0/underline_thickness = 0.0
+cache/0/20/0/scale = 1.0
+cache/0/20/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/24/0/ascent = 0.0
+cache/0/24/0/descent = 0.0
+cache/0/24/0/underline_position = 0.0
+cache/0/24/0/underline_thickness = 0.0
+cache/0/24/0/scale = 1.0
+cache/0/24/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/30/0/ascent = 0.0
+cache/0/30/0/descent = 0.0
+cache/0/30/0/underline_position = 0.0
+cache/0/30/0/underline_thickness = 0.0
+cache/0/30/0/scale = 1.0
+cache/0/30/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/30/0 = Vector2(0, 0)
+
+[sub_resource type="StyleBoxFlat" id="8"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="7"]
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="Main" type="Node2D"]
+script = ExtResource("53")
+dice_no = 0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0, 0, 0.560784, 1)
+
+[node name="Board" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(544.5, 958.5)
+scale = Vector2(1.57056, 2.4504)
+texture = ExtResource("2_q1px1")
+
+[node name="DiceBase" type="Sprite2D" parent="."]
+position = Vector2(216, 1720)
+scale = Vector2(0.455923, 0.455923)
+texture = ExtResource("17")
+
+[node name="Blue" type="Sprite2D" parent="DiceBase"]
+position = Vector2(-216.14, 7.86977)
+scale = Vector2(0.409543, 0.409543)
+texture = ExtResource("42")
+
+[node name="DiceBase2" type="Sprite2D" parent="."]
+position = Vector2(216, 200)
+scale = Vector2(0.455923, 0.455923)
+texture = ExtResource("17")
+
+[node name="Green" type="Sprite2D" parent="DiceBase2"]
+position = Vector2(-210.562, -3.05176e-05)
+scale = Vector2(0.409543, 0.409543)
+texture = ExtResource("31")
+
+[node name="DiceBase3" type="Sprite2D" parent="."]
+position = Vector2(872, 200)
+scale = Vector2(0.455923, 0.455923)
+texture = ExtResource("17")
+flip_h = true
+
+[node name="Red" type="Sprite2D" parent="DiceBase3"]
+position = Vector2(210.562, 0.000244141)
+scale = Vector2(0.409543, 0.409543)
+texture = ExtResource("3")
+
+[node name="DiceBase4" type="Sprite2D" parent="."]
+position = Vector2(872, 1720)
+scale = Vector2(0.455923, 0.455923)
+texture = ExtResource("17")
+flip_h = true
+
+[node name="Yellow" type="Sprite2D" parent="DiceBase4"]
+position = Vector2(210.562, 0.000488281)
+scale = Vector2(0.409543, 0.409543)
+texture = ExtResource("19")
+
+[node name="MovingDice" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(260, 1725)
+scale = Vector2(0.285969, 0.285969)
+sprite_frames = SubResource("1")
+animation = &"roll"
+
+[node name="DiceFaces" type="AnimatedSprite2D" parent="."]
+position = Vector2(264, 1721)
+scale = Vector2(0.381696, 0.381696)
+sprite_frames = SubResource("2")
+animation = &"show_faces"
+frame = 3
+
+[node name="DiceButton" type="Button" parent="DiceFaces"]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = -168.0
+offset_top = -168.0
+offset_right = 168.0
+offset_bottom = 168.0
+
+[node name="PlayersPath" type="Path2D" parent="."]
+position = Vector2(95, 161)
+scale = Vector2(0.826, 0.826)
+curve = SubResource("3")
+
+[node name="blue_player1" type="Sprite2D" parent="PlayersPath"]
+position = Vector2(447, 1824)
+scale = Vector2(0.151351, 0.151351)
+texture = ExtResource("42")
+
+[node name="green_player2" type="Sprite2D" parent="PlayersPath"]
+position = Vector2(511, 1824)
+scale = Vector2(0.151351, 0.151351)
+texture = ExtResource("31")
+
+[node name="red_player3" type="Sprite2D" parent="PlayersPath"]
+position = Vector2(575, 1824)
+scale = Vector2(0.151351, 0.151351)
+texture = ExtResource("3")
+
+[node name="yellow_player4" type="Sprite2D" parent="PlayersPath"]
+position = Vector2(639, 1824)
+scale = Vector2(0.151351, 0.151351)
+texture = ExtResource("19")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="LaddersPath" type="Path2D" parent="."]
+position = Vector2(97, 163)
+scale = Vector2(0.826, 0.826)
+curve = SubResource("4")
+
+[node name="SnakesPath" type="Path2D" parent="."]
+position = Vector2(100, 165)
+scale = Vector2(0.826, 0.826)
+curve = SubResource("5")
+
+[node name="LadderTimer" type="Timer" parent="."]
+
+[node name="SnakeTimer" type="Timer" parent="."]
+
+[node name="ToastTimer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[node name="TurnTimer" type="Timer" parent="."]
+wait_time = 0.5
+
+[node name="Toast" type="AcceptDialog" parent="."]
+title = ""
+position = Vector2i(95, 960)
+size = Vector2i(900, 227)
+theme = ExtResource("54")
+dialog_text = "Timely discussion with PAU scientists and seek their advice (ਪੀਏਯੂ ਦੇ ਵਿਗਿਆਨੀਆਂ ਨਾਲ ਸਮੇਂ ਸਿਰ ਚਰਚਾ ਕਰੋ ਅਤੇ ਉਨ੍ਹਾਂ ਦੀ ਸਲਾਹ ਲਓ)"
+dialog_autowrap = true
+
+[node name="Home" type="Button" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 471.0
+offset_top = 151.0
+offset_right = 608.0
+offset_bottom = 207.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("6")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("8")
+theme_override_styles/pressed = SubResource("7")
+text = " Home "
+
+[node name="DiceAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("57")
+volume_db = 6.0
+pitch_scale = 3.0
+
+[node name="SnakeAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("56")
+volume_db = 12.0
+
+[node name="LadderAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("59")
+volume_db = -20.0
+
+[node name="MoveAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("58")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(540, 51.875)
+scale = Vector2(0.84375, 0.677586)
+texture = ExtResource("60_7qv3r")
+
+[connection signal="stop_climbing_ladder" from="." to="." method="_on_Main_stop_climbing_ladder"]
+[connection signal="stop_taking_steps" from="." to="." method="_on_Main_stop_taking_steps"]
+[connection signal="animation_finished" from="MovingDice" to="." method="_on_MovingDice_animation_finished"]
+[connection signal="pressed" from="DiceFaces/DiceButton" to="." method="_on_DiceButton_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="timeout" from="LadderTimer" to="." method="_on_LadderTimer_timeout"]
+[connection signal="timeout" from="SnakeTimer" to="." method="_on_SnakeTimer_timeout"]
+[connection signal="timeout" from="ToastTimer" to="." method="_on_ToastTimer_timeout"]
+[connection signal="timeout" from="TurnTimer" to="." method="_on_TurnTimer_timeout"]
+[connection signal="button_up" from="Home" to="." method="_on_Home_button_up"]
